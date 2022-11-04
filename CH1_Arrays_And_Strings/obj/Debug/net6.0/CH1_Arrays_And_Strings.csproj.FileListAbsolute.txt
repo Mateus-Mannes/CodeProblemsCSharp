@@ -1,0 +1,15 @@
+C:\Temp\CTCI\CH1_Arrays_And_Strings\bin\Debug\net6.0\CH1_Arrays_And_Strings.exe
+C:\Temp\CTCI\CH1_Arrays_And_Strings\bin\Debug\net6.0\CH1_Arrays_And_Strings.deps.json
+C:\Temp\CTCI\CH1_Arrays_And_Strings\bin\Debug\net6.0\CH1_Arrays_And_Strings.runtimeconfig.json
+C:\Temp\CTCI\CH1_Arrays_And_Strings\bin\Debug\net6.0\CH1_Arrays_And_Strings.dll
+C:\Temp\CTCI\CH1_Arrays_And_Strings\bin\Debug\net6.0\CH1_Arrays_And_Strings.pdb
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.csproj.AssemblyReference.cache
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.AssemblyInfoInputs.cache
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.AssemblyInfo.cs
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.csproj.CoreCompileInputs.cache
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.dll
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\refint\CH1_Arrays_And_Strings.dll
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.pdb
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\CH1_Arrays_And_Strings.genruntimeconfig.cache
+C:\Temp\CTCI\CH1_Arrays_And_Strings\obj\Debug\net6.0\ref\CH1_Arrays_And_Strings.dll
