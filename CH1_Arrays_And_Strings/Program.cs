@@ -1,4 +1,5 @@
 ﻿using ArrayAndStrings;
 
-string word1 = "careraca";
-Console.WriteLine(IsPalindromePermutation.Run(word1.ToArray()));
+string word1 = "waterbottle";
+string word2 = "erbottlewae";
+Console.WriteLine(StringRotation.Run(word1.ToArray(), word2.ToArray()));
