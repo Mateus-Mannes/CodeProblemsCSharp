@@ -1,0 +1,15 @@
+C:\Temp\CTCI\CH2_Linked_Lists\bin\Debug\net6.0\CH2_Linked_Lists.exe
+C:\Temp\CTCI\CH2_Linked_Lists\bin\Debug\net6.0\CH2_Linked_Lists.deps.json
+C:\Temp\CTCI\CH2_Linked_Lists\bin\Debug\net6.0\CH2_Linked_Lists.runtimeconfig.json
+C:\Temp\CTCI\CH2_Linked_Lists\bin\Debug\net6.0\CH2_Linked_Lists.dll
+C:\Temp\CTCI\CH2_Linked_Lists\bin\Debug\net6.0\CH2_Linked_Lists.pdb
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.csproj.AssemblyReference.cache
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.AssemblyInfoInputs.cache
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.AssemblyInfo.cs
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.csproj.CoreCompileInputs.cache
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.dll
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\refint\CH2_Linked_Lists.dll
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.pdb
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\CH2_Linked_Lists.genruntimeconfig.cache
+C:\Temp\CTCI\CH2_Linked_Lists\obj\Debug\net6.0\ref\CH2_Linked_Lists.dll
