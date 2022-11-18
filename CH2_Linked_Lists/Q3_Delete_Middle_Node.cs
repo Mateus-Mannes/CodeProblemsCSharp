@@ -11,7 +11,7 @@ public static class DeleteMiddleNode {
 
       var next = node.Next;
       node.Value = next.Value;
-      node.Next = next.Next;
+      //node.Next = next.Next;
     }
 
 }

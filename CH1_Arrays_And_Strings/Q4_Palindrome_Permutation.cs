@@ -19,6 +19,21 @@ public static class IsPalindromePermutation {
         return true;
     }
 
+    ///<summary>Runs in O(n) time O(1) extra memory</summary>
+    // flips a bit vector, at the end just one bit can be 1, else it returns false
+    public static Boolean Run2(char[] phrase){
+        int bitVector = 0; // a-z
+        for(int i = 0; i < phrase.Length; i++){
+            if(phrase[i] == ' ') continue;
+            var letter = phrase[i];
+            if(letter >= 65 && letter <= 90) letter = Convert.ToChar(letter + 32);
+            int bitVectorPosition = letter - 'a';
+            bitVector ^= (1 << bitVectorPosition);
+        }
+        if(Math.Sqrt(bitVector) % 1 != 0) return false;
+        return true;
+    }
+
     private static void AddToDict(Dictionary<char, int> dict, char value){
         if(dict.ContainsKey(value)) dict[value]++;
         else dict.Add(value, 1);

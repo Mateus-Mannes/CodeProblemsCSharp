@@ -19,4 +19,16 @@ public static class IsUnique {
         }
         return true;
     }
+
+    ///<summary>Runs in O(n) time using a bit vector, less aditional space then the hashset</summary>
+    ///considering letter from a-z
+    public static Boolean Run3(char[] word){
+        int checker = 0;
+        for(int i = 0; i < word.Length; i++){
+            int value = word[i] - 'a';
+            if((checker & (1 << value)) > 0) return false;
+            checker |= 1 << value;
+        }
+        return true;
+    }
 }
