@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\CTCI\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj": {}
+    "C:\\Users\\mateu\\Documents\\CodeProblemsCSharp\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\CTCI\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj": {
+    "C:\\Users\\mateu\\Documents\\CodeProblemsCSharp\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\CTCI\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\Documents\\CodeProblemsCSharp\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj",
         "projectName": "CH1_Arrays_And_Strings",
-        "projectPath": "C:\\Temp\\CTCI\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj",
-        "packagesPath": "C:\\Users\\mateus.medeiros\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\CTCI\\CH1_Arrays_And_Strings\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\Documents\\CodeProblemsCSharp\\CH1_Arrays_And_Strings\\CH1_Arrays_And_Strings.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\Documents\\CodeProblemsCSharp\\CH1_Arrays_And_Strings\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mateus.medeiros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 ﻿using ArrayAndStrings;
 
-string word1 = "tet tetai";
-string word2 = "erbottlewae";
-Console.WriteLine(IsPalindromePermutation.Run2(word1.ToArray()));
+string word1 = "pale";
+string word2 = "bae";
+Console.WriteLine(OneAway.Run2(word1.ToArray(), word2.ToArray()));
