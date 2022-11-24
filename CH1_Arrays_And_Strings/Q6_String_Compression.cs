@@ -30,4 +30,23 @@ public static class StringCompression {
     public static string CharKey(char c, int position) {
         return c + position.ToString();
     }
+
+    // Runs without extra memory
+    public static char[] Run2(char[] chars){
+        var compressed = new StringBuilder();
+        int count = 0;
+        char letter = chars[0];
+        foreach(var c in chars){
+            if(c == letter){
+                count++;
+            }else {
+                compressed.Append(letter + count.ToString());
+                count = 1;
+                letter = c;
+            }
+        }
+        compressed.Append(letter + count.ToString());
+        if(compressed.Length >= chars.Length) return chars;
+        return compressed.ToString().ToArray();
+    }
 }
