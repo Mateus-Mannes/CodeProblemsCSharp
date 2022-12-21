@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,7 +21,7 @@ namespace Trees_And_Graphs
                 queue = VisitLevel(queue);
         }
         
-        public Queue<Node> VisitLevel(Queue<Node> queue)
+        public Queue<Node> VisitLevel(Queue<Node> queue, int marker = 0)
         {
             Queue<Node> nextVisits = new Queue<Node>();
 
@@ -31,9 +32,14 @@ namespace Trees_And_Graphs
                 Console.WriteLine("Node " + node.Value);
                 foreach (var child in node.Children)
                 {
+                    if (child.MarkedBy != null && child.MarkedBy != marker)
+                    {
+                        return null;
+                    }
                     if (!child.Marked)
                     {
                         child.Marked = true;
+                        child.MarkedBy = marker;
                         nextVisits.Enqueue(child);
                     }
                 }
@@ -43,12 +49,14 @@ namespace Trees_And_Graphs
         }
     }
 
-    public class Node
+    public class Node : IEquatable<Node>
     {
         public int Value { get; set; }
         public List<Node> Children { get; set; } = new List<Node>();
         public bool Visited { get; set; }
         public bool Marked { get; set; }
+        public int? MarkedBy { get; set; } = null;
+        public bool Intersection { get; set; }    
 
         public Node(int value, List<Node> children)
         {
@@ -59,6 +67,16 @@ namespace Trees_And_Graphs
         public Node(int value)
         {
             Value = value;
+        }
+
+        public bool Equals(Node? other)
+        {
+            return RuntimeHelpers.GetHashCode(this) == RuntimeHelpers.GetHashCode(other);
+        }
+
+        public override int GetHashCode()
+        {
+            return RuntimeHelpers.GetHashCode(this);
         }
     }
 }
