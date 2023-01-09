@@ -11,6 +11,8 @@ namespace Trees_And_Graphs
     {
         public List<Node> Nodes { get; set; } = new List<Node>();
 
+        
+
         public void BreadthFirstSearch(Node root)
         {
             Queue<Node> queue = new Queue<Node>();
@@ -54,9 +56,16 @@ namespace Trees_And_Graphs
         public int Value { get; set; }
         public List<Node> Children { get; set; } = new List<Node>();
         public bool Visited { get; set; }
+        public int Dependencies { get; set; }
+        public Node Parent { get; set; }
         public bool Marked { get; set; }
         public int? MarkedBy { get; set; } = null;
-        public bool Intersection { get; set; }    
+        public bool Intersection { get; set; }
+        public void AddChildren(Node n)
+        {
+            Children.Add(n);
+            n.Parent = this;
+        }
 
         public Node(int value, List<Node> children)
         {
