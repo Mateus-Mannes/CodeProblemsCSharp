@@ -16,5 +16,7 @@ namespace Bit_Manipulation
             }
             Console.WriteLine();
         }
+
+        
     }
 }
