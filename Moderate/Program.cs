@@ -2,7 +2,10 @@
 
 using Moderate;
 
-Interception.Run(new Coordenada() { X = 1, Y =1 }, 
-    new Coordenada() { X = 4, Y =4 }, 
-    new Coordenada() { X = 2, Y = 2 }, 
-    new Coordenada() { X = 6, Y = 10 } );
+var result = Interception.Run(new Coordenada() { X = 3, Y =5 }, 
+                               new Coordenada() { X = 5, Y =7 }, 
+
+                                new Coordenada() { X = 3, Y = 4 }, 
+                                new Coordenada() { X = 5, Y = 8 } );
+
+Console.WriteLine($"{result.X}, {result.Y}");

@@ -19,6 +19,9 @@ namespace Moderate
             if(deltaX == 0){
                 A = null;
                 CortaY = null;
+            }else{
+                A = detaY / deltaX;
+                CortaY = inicial.Y - A * inicial.X;
             }
         }
     }
@@ -43,12 +46,12 @@ namespace Moderate
                 return null;
             }
 
-            decimal x = (reta2.CortaY - reta1.CortaY) / (reta1.A - reta2.A);
-            decimal y = reta1.A * x + reta1.CortaY;
-            Coordenada interc = new Coordenada() { X = x, Y = y };
+            decimal? x = (reta2.CortaY - reta1.CortaY) / (reta1.A - reta2.A);
+            decimal? y = reta1.A * x + reta1.CortaY;
+            Coordenada interc = new Coordenada() { X = (decimal)x, Y = (decimal)y };
 
-            if(Contido(reta1.Inicial, interc, reta1.Final) 
-            && Contido(reta2.Inicial, interc, reta2.Final)){
+            if(Contido(inicial1, interc, final1) 
+            && Contido(inicial2, interc, final2)){
                 return interc;
             }
 
